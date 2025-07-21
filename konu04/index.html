@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dinamik Sayfa</title>
+<style>
+  *{text-decoration: none;} Bütün linklerin altındaki çizgiler iptal edilir
+  .row{
+    display: flex;
+    align-items: center; Aynı hiza da dursunlar
+    justify-content: space-between; Yatayda eşit aralıklarda yayılsınlar
+  }
+  .uclu{
+    display: flex;
+    column-gap: 30px;
+  }
+</style>
+</head>
+<body>
+<section id="menu">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="logo.png" alt="" width="146px"> 
+      </div>
+      <div class="col" style="width:600px;">
+        <input type="search" name=""id="" placeholder="Aradığınız ürünü yazınız" style="width:600px;">
+      </div>
+
+
+      <div class="uclu">
+          <div class="col">
+              <a href="" onclick="login()">Üye girişi</a>
+              <a href="" onclick="uyeol()">Üye ol</a>
+          </div>
+          <div class="col">
+              <a href="">Favorilerim</a>
+          </div>
+          <div class="col">
+              <p onclick="sepet()">Sepetim</p>
+          </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+  
+
+
+  <script src="main.js"></script>
+</body>
+</html>
