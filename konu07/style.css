@@ -1,4 +1,4 @@
-.dil-link {
+.erkan {
     display: inline-block; /* veya sadece inline da olabilir */
     text-decoration: none; /* altı çizgiyi kaldırır */
     margin-right: 10px;    /* aralarına boşluk koyar */
@@ -8,7 +8,8 @@
     padding: 2px 20px 40px 80px;
     border-radius: 0px;
 }
-.dil-link:hover
+
+.erkan:hover
 {
 background-color: rgb(110, 70, 70);
 transform: scale(1.50);
