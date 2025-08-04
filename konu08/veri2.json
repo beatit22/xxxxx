@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "product":"Kot pantolon",
+        "price":1500,
+        "size":"S - M - L - XL",
+        "image":"https://zebramo-production.eu-central-1.linodeobjects.com/product_images/2025-22/01JWX3TEZCSP129MXBXAW4PSYB_256x256.jpg"
+    },
+    {
+        "id":2,
+        "product":"Kot Etek",
+        "price":1300,
+        "size":"S - M - L - XL",
+        "image":"https://zebramo-production.eu-central-1.linodeobjects.com/product_images/2024-33/01J56E31ENWWQR11KZEMTW9XPB_256x256.jpg"
+    },
+    {
+        "id":3,
+        "product":"Kot Ceket",
+        "price":1250,
+        "size":"S - M - L - XL",
+        "image":"https://zebramo-production.eu-central-1.linodeobjects.com/product_images/2020-51/01ETCMPHN7EA3VXEE1WS94KKKQ_256x256.jpg"
+    }
+]
