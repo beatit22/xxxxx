@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+.row{
+    display: flex;
+    justify-content:center ;
+    column-gap: 25px;
+}
+.col-6{
+    background-color:rgb(163, 127, 197) ;
+    width: 15%;
+    text-align: center;
+    display:flex;
+    padding:30px 0px;
+    flex-direction:column ;
+    align-items: center;
+    row-gap: 15px;
+
+}
+
+.form{
+display: flex;
+flex-direction:column;
+width: 80%;
+row-gap: 5px;
+
+}
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Üye adı: <span id="isim"> </span> -->
+
+
+    <div class="row">
+    <div class="col-6">
+        <h5>Üye ol</h5>
+        <form action="" method="post" id="sign">
+            <input type="text" id="kadi" placeholder="Kullanıcı adını giriniz">
+            <input type="password" id="sifre" placeholder="Şifre giriniz">
+            <input type="submit" value="Üye ol">
+        </form>
+    </div>
+    <div class="col-6">
+        <h5>Giriş Yap</h5>
+        <form action="" method="post" id="login">
+
+            <input type="text" id="user" placeholder="Kullanıcı adını giriniz">
+
+            <input type="password" id="pass" placeholder="Şifrenizi giriniz">
+
+            <input type="submit" value="Giriş yap">
+
+        </form>
+    </div>
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
