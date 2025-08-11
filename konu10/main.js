@@ -2,7 +2,7 @@
 
 Add Event Listener
 Çok sayıda evet var.
-Kullanıcıların hareketlerine göre çalışacak algoratima yapısıd.r
+Kullanıcıların hareketlerine göre çalışacak algoratima yapısıdır.
 
 
 syntax yapısı
