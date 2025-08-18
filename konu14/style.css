@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+}
+.wrap { padding: 24px; }
+.clock {
+  font-size: clamp(20px, 4vw, 36px);
+  background: #1e293b;
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 1px solid #334155;
+  letter-spacing: .2px;
+}
