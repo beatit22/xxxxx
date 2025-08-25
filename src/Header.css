@@ -1,0 +1,29 @@
+#topBar {
+  background:#06396d; color:#fff;
+}
+
+.container {
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 16px;        /* kenarlarda eşit iç boşluk */
+}
+
+.row {
+  display:flex;
+  gap:24px;              /* iki kolon arasındaki boşluk = 24px */
+}
+
+.col-6 {
+  flex:1;                /* iki kolon eşit genişlik */
+  display:flex;
+  justify-content:center;/* metni kolonda ortala */
+  align-items:center;
+}
+
+.text-white{
+    color:#fff;
+}
+
+.text-right{
+    text-align: right;
+}

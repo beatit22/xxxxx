@@ -1,0 +1,10 @@
+.site-footer { background:#06396d; color:#f1f5f9; padding:16px 0; font-size:14px; }
+.footer-container {
+  max-width:1200px; margin:0 auto; padding:0 16px;
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;
+}
+.footer-left { font-weight:500; }
+.footer-nav { display:flex; gap:16px; }
+.footer-nav a { color:#cbd5e1; text-decoration:none; transition:color .2s; }
+.footer-nav a:hover { color:#fff; }
+.footer-right { opacity:.85; }
